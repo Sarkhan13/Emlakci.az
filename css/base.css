@@ -1,0 +1,157 @@
+.header-box{
+    width: 100%;
+    background-color: brown;
+}
+
+.header-top{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.head-logo{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.head-menu{
+    padding: 5px 0;
+}
+
+
+.head-menu a{
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  padding: 15px 5px;
+}
+
+.head-menu a:hover{
+    background-color: rgb(150, 40, 40);
+}
+
+.ads-add{
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+}
+
+.ads-add i{
+    font-size: 20px;
+}
+
+.ads-add span{
+    font-size: 18px;
+}
+
+.header-line{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.header-bottom{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.addit-btn div{
+    padding: 8px 15px;
+    font-size: 17px;
+    height: 40px;
+    margin-top: 24px;
+    border: 1px solid rgb(26, 24, 24);
+}
+
+
+.addit-btn{
+    display: flex;
+    
+}
+
+.more-searching{
+    background-color: white;
+    color: rgb(65, 11, 11);
+    cursor: pointer;
+}
+
+.search-btn{
+    background-color: rgb(23, 23, 238);
+    color: white;
+    cursor: pointer;
+}
+
+.more-searching:hover{
+    opacity: 0.85;
+}
+
+.search-btn:hover{
+    background-color: blue;
+}
+
+.visible-search > div, .unvisible-search > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.visible-search, .unvisible-search{
+    display: flex;
+}
+
+.searching-box{
+    display: flex;
+}
+
+.price-box input{
+    width: 80px;
+    height: 40px;
+}
+
+.check-box{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.check-box input{
+   width: 20px;
+   height: 20px;
+   
+}
+
+.price-home{
+    display: flex;
+}
+
+.searching select{
+    width: 150px;
+    height: 40px;
+    outline: none;
+}
+
+.searching input{
+    outline: none;
+}
+
+.searching label{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.unvisible-search{
+    display: none !important;
+}
+
+.unvisible-search.active{
+    display: flex !important;
+    margin-top: 10px;
+}

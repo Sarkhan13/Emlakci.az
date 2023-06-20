@@ -1,0 +1,141 @@
+.sub-cat-cont{
+    width: 1000px;
+    display: flex;
+    
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.sub-cat-cont div:nth-child(1){
+
+    margin-left: 0;
+
+}
+
+
+.sub-cat-item{
+    background-color: rgb(199, 199, 199);
+    width: 240px;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.sub-cat-img{
+    font-size: 50px;
+}
+
+.sub-cat-dtl{
+    padding: 10px;
+}
+
+.sub-cat-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.elan-section{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.elan-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(159, 161, 163);
+    padding: 10px 30px;
+}
+
+.elan-title{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.elan-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.elan-head{
+    width: 240px;
+    position: relative;
+   
+}
+
+.elan-img{
+    width: 240px;
+   
+    height: 180px;
+}
+
+.kupca{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: yellow
+    
+    ;
+}
+
+.ealn-vip{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 20px;
+    color: red
+    
+    ;
+}
+
+.elan-agent{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+}
+.elan-box:first-child{
+    margin-left: 5px;
+}
+
+.elan-box{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -3px 0px 14px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 0px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 0px 14px 0px rgba(0,0,0,0.75);
+margin-top: 15px;
+margin-left: 10px;
+}
+
+
+
+.elan-bottom{
+    padding: 10px;
+}
+.elan-bottom div{
+    margin-top: 5px;
+}
+
+.elan-ad{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.elan-value{
+    font-size: 15px;
+}
+
+.elan-add-dtl{
+    font-size: 12px;
+}
