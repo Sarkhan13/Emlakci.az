@@ -1,0 +1,155 @@
+.elan-section{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(218, 222, 224);
+}
+
+.elan-sec-header{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(159, 164, 167);
+}
+
+.elan-sec-cont{
+    display: flex;
+    width: 100%;
+}
+
+.elan-sec-cont > div{
+    width: 49.5%;
+}
+
+.elan-right-box{
+    margin-left: 1%;
+}
+
+select, .elan-left-box input, .elan-right-box input[type="text"], .elan-right-box input[type="number"] {
+    height: 40px;
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+label{
+    width: 150px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.elan-left-box > div{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.elan-type-cont-box{
+    display: flex;
+}
+
+.elan-type-cont-box select:nth-child(2){
+    margin-left: 2px;
+}
+
+.elan-city select{
+    width: 285px;
+}
+
+.elan-left-box input, .elan-right-box input[type="text"], .elan-right-box input[type="number"]{
+    width: 285px;
+}
+
+.elan-left-box textarea{
+    width: 285px;
+}
+
+.elan-left-box label{
+    padding-top: 5px;
+}
+
+.contact-person {
+    margin-top: 20px;
+}
+
+.contact-man-dtl{
+    margin-top: 20px;
+    background-color: white;
+    border: 0.5px black solid;
+    width: 440px;
+    padding: 5px;
+}
+
+.contact-point-dtl{
+    display: flex;
+    margin-left: 20px;
+}
+
+.contact-point-dtl div label{
+    width: 100px;
+}
+
+.contact-point-dtl div:nth-child(2) label{
+    width: 150px;
+}
+
+.telefon-dtl{
+    display: flex;
+    margin-top: 10px;
+}
+
+.elan-img{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.sekil-qutu:first-child{
+    margin-left: 0;
+}
+
+.sekil-qutu{
+    margin-left: 10px;
+}
+
+.img-box{
+    width: 140px;
+    height: 140px;
+    background-image: url('../img/unnamed.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.elan-img input[type="file"]{
+    display: none;
+}
+
+.submit-package{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.submit-package label{
+    width: 180px;
+}
+
+.elan-submit {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+}

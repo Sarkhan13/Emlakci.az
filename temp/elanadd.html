@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/favicon.jfif" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/elanadd.css" />
+    <title>Əmlakların alqı-satqısı və kirayəsi</title>
+  </head>
+  <body>
+
+    <div class="reklam-top">
+      <div class="reklam-img">
+        <img src="../img/reklam.jpg" alt="" width="100%" height="100%">
+      </div>
+    </div>
+    <header class="header">
+      <div class="header-box">
+        <div class="header-top">
+            <div class="head-logo">
+                <strong>Emlakci.az</strong>
+            </div>
+
+            <div class="head-menu">
+                <a href="home.html">Əsas səhifə</a>
+                <a href="#">Kirayə evlər</a>
+                <a href="agent.html">Agentliklər</a>
+                <a href="about.html">Haqqımızda</a>
+            </div>
+              <a href="elanadd.html">
+            <div class="ads-add">
+                <i class="fa-solid fa-plus"></i>
+                <span>Elan yerləşdir</span>
+            </div>
+          </a>
+        </div>
+
+    </header>
+
+        <section class="elan-section">
+            <form action="">
+            <div class="elan-sec-header">Elan yerləşdir</div>
+
+            <div class="elan-sec-cont">
+
+                <div class="elan-left-box">
+                  
+                    <div class="elan-type-action">
+                        <label for="type">Mən</label>
+                        <div class="elan-type-cont-box">
+                            <select name="type" id="type">
+                                <option value=""></option>
+                                <optgroup>
+                                    <option value="yenitikili">yeni tikili</option>
+                                    <option value="kohnetikili">köhnə tikili</option>
+                                </optgroup>
+                                <option value="evvilla">ev/villa</option>
+                                <option value="ofis">ofis</option>
+                                <option value="bag">bağ</option>
+                            </select>
+
+                            <select name="action" id="action">
+                                <option value=""></option>
+                                <option value="sale">satıram</option>
+                                <option value="rent">kirayə verirəm</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="elan-city">
+                        <label for="city">Şəhər</label>
+                        <select name="city" id="city">
+                            <option value=""></option>
+                            <option value="baku">Bakı</option>
+                            <option value="xirdalan">Xırdalan</option>
+                            <option value="sumqayit">Sumqayıt</option>
+                            <option value="gence">Gəncə</option>
+                        </select>
+                    </div>
+
+                    <div class="sahe">
+                        <label for="sahe">Sahəsi</label>
+                        <input type="number" name="sahe" id="sahe">
+                    </div>
+
+                    <div class="unvan">
+                        <label for="unvan">Ünvan</label>
+                        <input type="text" name="unvan" id="unvan" required>
+                    </div>
+
+                    <div class="elan-more-dtl">
+                        <label for="add">Əlavə məlumat</label>
+                        <textarea name="add" id="add" cols="40" rows="6"></textarea>
+                    </div>
+
+
+                </div>
+
+                <div class="elan-right-box">
+
+                    <div class="contact-person">
+                        <label for="contactman">Adınız</label>
+                        <input type="text" name="contactman" id="contactman">
+                    </div>
+
+                    <div class="contact-man-dtl">
+                        <label for="contact">Əlaqədar şəxs</label>
+                        <div class="contact-point-dtl">
+                              <div>
+                            <input type="radio" name="contact-point" id="makler">
+                            <label for="makler">Agentlik</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="contact-point" id="owner">
+                            <label for="owner">Əmlak sahibi</label>
+                        </div>
+                        </div>
+
+                        <div class="telefon-dtl">
+                        <label for="telefon">Telefon</label>
+                        <input type="number" name="telefon" id="telefon">
+                    </div>
+                    </div>
+
+                    <div class="elan-img">
+                        
+                        <div class="sekil-qutu">
+
+                            <div class="img-box" id="imgbox1">
+                               <img  id="img1" width="100%" height="100%">
+                            </div>
+                          <input type="file" name="sekil1" id="input1">
+                        </div>
+
+                        <div class="sekil-qutu">
+
+                            <div class="img-box" id="img-box2">
+                                <img  id="img2">
+                            </div>
+                            <input type="file" name="sekil1" id="input2">
+                        </div>
+
+                        <div class="sekil-qutu">
+
+                            <div class="img-box" id="img-box3">
+                                <img  id="img3">
+                            </div>
+                            <input type="file" name="sekil1" id="input3">
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="elan-submit">
+
+                <div class="submit-package">
+                    <input type="radio" name="sub" id="sade">
+                    <label for="sade">Sadə(pulsuz)</label>
+
+                    <input type="radio" name="sub" id="vip">
+                    <label for="vip">Vip(5 Azn)</label>
+
+                    <input type="radio" name="sub" id="pre">
+                    <label for="pre">Premium(15 Azn)</label>
+                </div>
+
+                <input type="submit" value="Elan yerləşdir">
+
+            </div>
+        </form>
+        </section>
+      <script src="../js/script.js"></script>
+    </body>
+
+    </html>
+
+        
