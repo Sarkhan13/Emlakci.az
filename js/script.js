@@ -1,21 +1,33 @@
-const imgbox1 = document.querySelector('#imgbox1');
 
-const input1 = document.querySelector('#input1');
 
-const img1 = document.querySelector('#img1');
-console.log(imgbox1, input1, img1);
+function setupImage(imgboxid, inputid, imgid){
+  const  imgbox = document.querySelector(imgboxid);
+  const input = document.querySelector(inputid);
+  const img = document.querySelector(imgid);
 
-imgbox1.addEventListener('click',function(){
-    input1.click();
+  imgbox.addEventListener('click', function(){
+    input.click();
 
-    input1.addEventListener('change', function(){
-        if(input1.files){
+    input.addEventListener('change', function(){
+        if(input.files){
             const reader = new FileReader();
 
             reader.onload = function(e){
-                img1.src = e.target.result;
+                img.src = e.target.result;
             }
-            reader.readAsDataURL(input1.files[0]);
+            reader.readAsDataURL(input.files[0]);
         }
+        
     })
-})
+  })
+}
+
+for(i =1; i<=10; i++){
+    const imgboxid = `#imgbox${i}`;
+    const inputid = `#input${i}`;
+    const imgid = `#img${i}`;
+
+    setupImage(imgboxid, inputid, imgid);
+}
+
+

@@ -56,3 +56,26 @@ body{
     border-left: 5px red solid;
     padding-left: 5px;
 }
+
+.reg{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logreg-box a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+
+    .logreg-form input, .logreg-form select {
+        width: 250px !important;
+        height: 20px !important;
+        
+    }
+
+    .logreg-form input[type="submit"]{
+        width: 100% !important;
+       height: 30px !important;
+}
+}

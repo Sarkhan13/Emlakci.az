@@ -155,3 +155,134 @@
     display: flex !important;
     margin-top: 10px;
 }
+
+.register {
+    color: white;
+}
+
+.register i{
+    margin-right: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head-logo i{
+    display: none;
+}
+
+.srch-btn i{
+    color: white;
+}
+
+.srch-btn{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+    .header-top{
+        width: 90%;
+    }
+
+    .header-bottom{
+        display: none;
+        width: 100%;
+    }
+
+    .header-bottom.aktiv{
+        display: block;
+    }
+
+    .searching-box{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .searching{
+        width: 100%;
+    }
+
+    .unvisible-search{
+        display: flex !important;
+    }
+
+    .visible-search, .unvisible-search{
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .visible-search > div, .unvisible-search > div{
+        width: 100%;
+    }
+
+    .visible-search > div select, .unvisible-search > div select{
+        width: 100%;
+    }
+
+    .price-box input{
+        width: 50%;
+    }
+
+    .addit-btn{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .search-btn{
+        text-align: center;
+    }
+
+    .more-searching{
+        display: none;
+    }
+
+    .head-logo{
+        font-size: 90%;
+    }
+
+    .head-menu{
+        display: none;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background-color: brown;
+        width: 100%;
+    }
+
+    .head-menu.active{
+        display: block;
+    }
+
+    
+.head-logo i{
+    display: inline-block;
+}
+
+    
+    .head-menu a{
+        display: block;
+    }
+
+    .register{
+        font-size: 90%;
+    }
+
+    .ads-add span, .ads-add i{
+        font-size: 12px;
+    }
+
+    .srch-btn i{
+        font-size: 14px;
+    }
+
+    .srch-btn{
+        display: inline-block;
+    }
+
+
+
+    
+}

@@ -25,6 +25,9 @@ section{
     border: 1px solid black;
     
 }
+a{
+    text-decoration: none;
+}
 
 .agent-box:hover{
     cursor: pointer;
@@ -74,4 +77,20 @@ section{
 
 .agent-box:nth-child(even){
     margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px){
+
+    section{
+        width: 100%;
+    }
+
+    .agent-box{
+        width: 95%;
+        height: 213px;
+    }
+
+    .agent-box:nth-child(even){
+        margin-left: 0;
+    }
 }

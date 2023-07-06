@@ -1,0 +1,81 @@
+{
+  "name": "jumboslider",
+  "title": "jQuery JumboSlider Plugin",
+  "description": "Yet another responsive slider for any kind of content",
+  "keywords": [
+    "jumboslider",
+    "slider",
+    "slideshow",
+    "jumbotron",
+    "gallery",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "jQuery",
+    "plugin"
+  ],
+  "version": "1.5.0",
+  "homepage": "https://jumboslider.metodiev.dev",
+  "demo": "https://jumboslider.metodiev.dev",
+  "author": {
+    "name": "Martin Metodiev",
+    "email": "metodiev.martin@gmail.com",
+    "url": "https://metodiev.dev"
+  },
+  "maintainers": [
+    {
+      "name": "Martin Metodiev",
+      "email": "metodiev.martin@gmail.com",
+      "url": "https://metodiev.dev"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinmethod/jumboslider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinmethod/jumboslider/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "3.x",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "compass-mixins": "^0.12.10",
+    "grunt": "^1.0.4",
+    "grunt-banner": "^0.6.0",
+    "grunt-bump": "^0.8.0",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-pug": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-conventional-changelog": "^6.1.0",
+    "grunt-open": "^0.2.4",
+    "grunt-sass": "^3.1.0",
+    "grunt-sass-lint": "^0.2.4",
+    "grunt-shell": "^3.0.1",
+    "http-rewrite-middleware": "^0.1.6",
+    "lib-sass-data-uri": "0.0.4",
+    "load-grunt-config": "^3.0.1",
+    "load-grunt-tasks": "^5.1.0",
+    "my-jquery-plugins-assets": " git://github.com/martinmethod/my-jquery-plugins-assets.git#v1.7.1",
+    "node-sass-globbing": "0.0.23",
+    "time-grunt": "^2.0.0"
+  },
+  "main": "dist/js/jquery.jumboslider.min.js",
+  "directories": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "npm install && grunt clean:all && grunt build"
+  },
+  "sasslintConfig": "configs/linters/.sass-lint.yml"
+}

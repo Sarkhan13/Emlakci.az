@@ -110,6 +110,9 @@ label{
 .sekil-qutu{
     margin-left: 10px;
 }
+a{
+    text-decoration: none;
+}
 
 .img-box{
     width: 140px;
@@ -152,4 +155,26 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .elan-sec-cont{
+        flex-direction: column;
+    }
+
+    .elan-sec-cont > div{
+        width: 100%;
+    }
+
+    .contact-man-dtl{
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .elan-img{
+        margin: auto;
+        justify-content: center;
+    }
 }

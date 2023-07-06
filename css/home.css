@@ -68,7 +68,7 @@
     
 }
 .elan-head{
-    width: 240px;
+    height: 180px;
     position: relative;
    
 }
@@ -99,6 +99,7 @@
     ;
 }
 
+
 .elan-agent{
     position: absolute;
     bottom: 10px;
@@ -112,10 +113,11 @@
     margin-left: 5px;
 }
 
-.elan-box{
+ .elan-box{
     width: 240px;
     display: flex;
     flex-direction: column;
+    background-color: white;
     box-shadow: -3px 0px 14px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: -3px 0px 14px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -3px 0px 14px 0px rgba(0,0,0,0.75);
@@ -123,8 +125,12 @@ margin-top: 15px;
 margin-left: 10px;
 }
 
-.elan-box:hover{
+ .elan-box:hover{
     background-color: rgb(243, 243, 243);
+}
+
+.elan-list a {
+    color: black;
 }
 
 
@@ -147,4 +153,144 @@ margin-left: 10px;
 
 .elan-add-dtl{
     font-size: 12px;
+}
+
+footer{
+   
+    margin-top: 50px;
+   
+}
+
+.footer-main-cont{
+    display: flex;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    margin-top: 50px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.footer-menu{
+    width: 20%;
+    margin-top: 45px;
+    margin-left: 20px ;
+}
+
+.footer-about{
+    width: 30%;
+    margin-top: 45px;
+}
+
+
+.footer-about strong{
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.footer-about div{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footer-form{
+    margin-top: 45px;
+}
+
+.footer-last{
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+
+.footer-last i{
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px){
+    .sub-cat-cont{
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .elan-section{
+        width: 100%
+    }
+
+    .elan-list   .elan-box{
+        width: 90%;
+        display: flex;
+      
+        margin-left: 0;
+    }
+
+    .elan-list{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 10px;
+       
+    }
+
+    .elan-img{
+        width: 100%;
+       
+        height: 150px;
+    }
+
+    .elan-head{
+        width: 100%;
+        height: 150px;
+       
+    }
+
+    .elan-ad{
+        font-size: 15px;
+    }
+
+    .elan-value{
+        font-size: 13px;
+    }
+
+    .elan-add-dtl {
+        font-size: 12px;
+    }
+
+    
+
+    
+
+    .footer-main-cont{
+        flex-wrap: wrap;
+
+    }
+
+    .footer-menu {
+        width: 100%;
+    }
+
+    .footer-about {
+        width: 100%;
+    }
+    
+    .footer-form{
+        width: 100%;
+    }
+
+
 }
